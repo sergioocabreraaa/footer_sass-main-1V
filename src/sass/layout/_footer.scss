@@ -1,0 +1,130 @@
+/* ********* */
+/* @FOOTER */
+/* ********* */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+// Colores
+.links{
+    background-color: $color_footer_scLinks;
+}
+.logoIdiomas{
+    background-color: $color_footer_scLogo;
+}
+.terminosSocial{
+    background-color: $color_footer_scTerminos;
+}
+
+
+// Margenes, espacio
+.links{
+
+    &__contenido{
+        
+        padding-bottom: 3rem;
+    }
+}
+.logoIdiomas{
+
+    &__contenido{
+        padding: 1.5rem;
+    }
+}
+.terminosSocial{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.centrar{
+    max-width: $anchoMax;
+    margin: 0 auto;
+}
+
+
+// Terminos y condiciones
+.terminosSocial__contenido{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+// Políticas
+.politicas{
+    column-count: 3;
+    column-rule: 1px solid $color_general;
+
+    > *{
+        display: block;
+    }
+}
+
+
+// Redes Sociales
+
+p{
+    color: #121d5c;
+}
+a {
+    text-decoration: none;
+    color: $color_general;
+    svg {
+        width: 32px;
+        height: 32px;
+        fill: $color_general;
+        
+    }
+}
+.letras{
+    color: $color_general;
+}
+
+.columns {
+
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.4;
+  }
+
+  .fig{
+    display: flex;
+  }
+
+li{
+    list-style:none;
+    color: $color_secundario;
+}
+
+.logoIdioma{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+
+.boton{
+    border-radius: 0px;
+    background-color: white;
+  border: thin solid $color_general;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+}
+
+select{
+    border:none;
+    background-color: white;
+    color: $color_secundario;
+}
+
+
+.imagen{
+    width: 80px;
+    padding-right: 20px;
+}

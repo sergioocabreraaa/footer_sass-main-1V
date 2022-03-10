@@ -1,0 +1,37 @@
+/* ********* */
+/* @VARIABLES */
+/* ********* */
+
+// Footer
+// Colores
+$color_footer_scLinks : #FFFFFF;
+$color_footer_scLogo : #F3F3FD;
+$color_footer_scTerminos : #C9CEEA;
+$color_general: #7075A2;
+$color_secundario: #7177a3;
+
+// Tamaños
+$anchoMax : 1366px;
+
+// Redes Sociales
+// iconos
+$redes: (
+    facebook: "../assets/img/svg/facebook.svg",
+    twitter: "../assets/img/svg/twitter.svg",
+    instagram: "../assets/img/svg/instagram.svg",
+    linkedin: "../assets/img/svg/linkedin.svg",
+    pinterest: "../assets/img/svg/pinterest.svg",
+    youtube: "../assets/img/svg/youtube.svg",
+    vimeo: "../assets/img/svg/vimeo.svg"
+);
+// enlaces a las redes sociales
+$redesLink: (
+    facebook: "https://www.facebook.com/",
+    twitter: "https://twitter.com/",
+    instagram: "https://www.instagram.com/",
+    linkedin: "https://www.linkedin.com/",
+    pinterest: "https://www.pinterest.com/",
+    youtube: "https://www.youtube.com/",
+    vimeo: "https://vimeo.com/"
+);
+
